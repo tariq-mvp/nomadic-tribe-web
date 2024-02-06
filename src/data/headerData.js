@@ -1,5 +1,7 @@
 import logo from "@/images/resources/logo-1.png";
 import logo2 from "@/images/resources/logo-2.png";
+// import logo3 from "@/images/resources/logo-3.png";
+import logo3 from "@/images/resources/logo2.svg";
 
 const navItems = [
   {
@@ -75,10 +77,10 @@ const navItems = [
 ];
 
 const social = [
-  { icon: "fa-facebook-square", link: "" },
-  { icon: "fa-twitter", link: "" },
-  { icon: "fa-instagram", link: "" },
-  { icon: "fa-pinterest-p", link: "" },
+  { icon: "fa-facebook-square", link: "https://facebook.com/NomadicTribeOfficial/" },
+  { icon: "fa-twitter", link: "https://twitter.com/Nomdic_tribe_" },
+  { icon: "fa-instagram", link: "https://www.instagram.com/nomadictribeofficial/" },
+  { icon: "fa-youtube", link: "https://www.youtube.com/channel/UCjiWnKqifogDCnrxh_-w2VA" },
 ];
 
 const headerData = {
@@ -92,7 +94,7 @@ const headerData = {
     {
       id: 2,
       icon: "icon-at",
-      content: "needhelp@company.com",
+      content: "support@nomadictribe.com",
       subHref: "mailto",
     },
   ],
@@ -100,6 +102,7 @@ const headerData = {
   social,
   logo,
   logo2,
+  logo3
 };
 
 export default headerData;

@@ -14,7 +14,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home One">
+    <Layout pageTitle="Nomadic Tribe">
       <MainSlider />
       <TourSearch />
       <DestinationsOne />

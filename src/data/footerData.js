@@ -1,10 +1,10 @@
 import logo from "@/images/resources/footer-logo.png";
 
 const social = [
-  { icon: "fa-twitter", link: "" },
-  { icon: "fa-facebook-square", link: "" },
-  { icon: "fa-pinterest-p", link: "" },
-  { icon: "fa-instagram", link: "" },
+  { icon: "fa-twitter", link: "https://twitter.com/Nomdic_tribe_" },
+  { icon: "fa-facebook-square", link: "https://facebook.com/NomadicTribeOfficial/" },
+  { icon: "fa-youtube", link: "https://www.youtube.com/channel/UCjiWnKqifogDCnrxh_-w2VA" },
+  { icon: "fa-instagram", link: "https://www.instagram.com/nomadictribeofficial/" },
 ];
 
 const footerData = {
@@ -13,7 +13,7 @@ const footerData = {
   year: new Date().getFullYear(),
   author: "Nomadic Tribe",
   about:
-    "Welcome to our Trip and Tour Agency. Lorem simply text amet cing elit.",
+    "A respectful and safe community for like-minded travelers. Explore. Connect. And book life-changing journeys that let you encounter authentic indigenous cultures.",
   icons: [
     {
       id: 1,
@@ -24,7 +24,7 @@ const footerData = {
     {
       id: 2,
       icon: "fas fa-envelope",
-      content: "needhelp@company.com",
+      content: "support@nomadictribe.com",
       subHref: "mailto",
     },
     {
