@@ -11,7 +11,7 @@ const footerData = {
   logo,
   social,
   year: new Date().getFullYear(),
-  author: "Tevily",
+  author: "Nomadic Tribe",
   about:
     "Welcome to our Trip and Tour Agency. Lorem simply text amet cing elit.",
   icons: [

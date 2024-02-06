@@ -12,8 +12,8 @@ import "react-rangeslider/lib/index.css";
 
 // extra css
 import "@/styles/globals.css";
-import "@/styles/tevily.css";
-import "@/styles/tevily-responsive.css";
+import "@/styles/nomadic.css";
+import "@/styles/nomadic-responsive.css";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
