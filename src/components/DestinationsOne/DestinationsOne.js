@@ -14,7 +14,7 @@ const DestinationsOne = () => {
           </h2>
         </div>
         <Row className="masonary-layout">
-          {destinationsOne.slice(0, 5).map((destination) => (
+          {destinationsOne.slice(0, 6).map((destination) => (
             <SingleDestination key={destination.id} destination={destination} />
           ))}
         </Row>

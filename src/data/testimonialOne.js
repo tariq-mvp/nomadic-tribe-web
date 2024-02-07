@@ -6,106 +6,39 @@ const testimonialOne = {
   bg,
   shape1,
   shape2,
-  tagline: "Testimonials & reviews",
-  title: "What They’re Saying",
+  // tagline: "Testimonials & reviews",
+  tagline: "Popular Travellers",
+  title: "Our best past experiences with popular adventurers",
+  // title: "What They’re Saying",
   testimonials: [
     {
       id: 1,
-      image: "testimonial-one-img-1.png",
+      image: "https://d2neuv05ura4o9.cloudfront.net/users/55/151/large.5da5d5e7ce4e87.20337948.jpg",
       review: 5,
-      description:
-      "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+      description: "With Jeremy, we had an amazing experience",
       client: {
-        name: "Kevin Martin",
-        role: "Customer",
+        name: "The Amazigh, the Atlas Mountains & the Erg Chebi Dunes",
+        role: "Central Africa",
       },
     },
 {
       id: 2,
-      image: "testimonial-one-img-2.png",
+      image: "https://d2neuv05ura4o9.cloudfront.net/users/131/370/large.5e907cc1c13468.25576110.jpg",
       review: 5,
-      description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+      description: "With Giulia Cimarosti, we had an amazing experience",
       client: {
-        name: "Kevin Martin",
-        role: "Customer",
+        name: "The Hadzabe",
+        role: "Central Africa",
       },
     },
     {
       id: 3,
-      image: "testimonial-one-img-3.png",
+      image: "https://nomadictribe-v2-production.s3.amazonaws.com/jpeg/WhatsApp%20Image%202023-04-13%20at%2011.13.14%20PM.jpeg/2023-04-15-62666c1ac1a9e9ed6da17734-77obi0h-WhatsApp%20Image%202023-04-13%20at%2011.13.14%20PM.jpeg",
       review: 5,
-      description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+      description: "With Daniel Tirado, we had an amazing experience",
       client: {
-        name: "Jessica Brown",
-        role: "Customer",
-      },
-    },
-    {
-      id: 4,
-      image: "testimonial-one-img-1.png",
-      review: 5,
-      description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
-      client: {
-        name: "Shirley Smith",
-        role: "Customer",
-      },
-    },
-    {
-      id: 5,
-      image: "testimonial-one-img-2.png",
-      review: 5,
-      description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
-      client: {
-        name: "Kevin Martin",
-        role: "Customer",
-      },
-    },
-    {
-      id: 6,
-      image: "testimonial-one-img-3.png",
-      review: 5,
-      description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
-      client: {
-        name: "Jessica Brown",
-        role: "Customer",
-      },
-    },
-    {
-      id: 7,
-      image: "testimonial-one-img-1.png",
-      review: 5,
-      description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
-      client: {
-        name: "Shirley Smith",
-        role: "Customer",
-      },
-    },
-    {
-      id: 8,
-      image: "testimonial-one-img-2.png",
-      review: 5,
-      description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
-      client: {
-        name: "Kevin Martin",
-        role: "Customer",
-      },
-    },
-    {
-      id: 9,
-      image: "testimonial-one-img-3.png",
-      review: 5,
-      description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
-      client: {
-        name: "Jessica Brown",
-        role: "Customer",
+        name: "The Surma(Suri)",
+        role: "Central Africa",
       },
     },
   ],

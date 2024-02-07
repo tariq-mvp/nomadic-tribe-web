@@ -6,12 +6,13 @@ const SingleDestination = ({ destination = {} }) => {
   const { image, title, tours, subTitle, col } = destination;
 
   return (
-    <Col xl={col} lg={col}>
+    // <Col xl={col} lg={col}>
+    <Col xl={4} lg={4}>
       <div className="destinations-one__single">
         <div className="destinations-one__img">
           <Image
-            src={require(`@/images/destination/${image}`).default.src}
-            // src={image}
+            // src={require(`@/images/destination/${image}`).default.src}
+            src={image}
             alt=""
           />
           <div className="destinations-one__content">
