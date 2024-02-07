@@ -11,6 +11,7 @@ const SingleDestination = ({ destination = {} }) => {
         <div className="destinations-one__img">
           <Image
             src={require(`@/images/destination/${image}`).default.src}
+            // src={image}
             alt=""
           />
           <div className="destinations-one__content">

@@ -35,8 +35,8 @@ const PopularTours = () => {
     <section className="popular-tours">
       <div className="popular-tours__container">
         <div className="section-title text-center">
-          <span className="section-title__tagline">Featured tours</span>
-          <h2 className="section-title__title">Most Popular Tours</h2>
+          <span className="section-title__tagline">Popular Experiences</span>
+          <h2 className="section-title__title">These are the best reviewed experiences</h2>
         </div>
         <Row>
           <Col xl={12}>

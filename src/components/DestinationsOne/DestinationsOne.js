@@ -9,7 +9,9 @@ const DestinationsOne = () => {
       <Container>
         <div className="section-title text-center">
           <span className="section-title__tagline">Hot Destination</span>
-          <h2 className="section-title__title">Here you can find experiences by destination</h2>
+          <h2 className="section-title__title">
+            Here you can find experiences by destination
+          </h2>
         </div>
         <Row className="masonary-layout">
           {destinationsOne.slice(0, 5).map((destination) => (

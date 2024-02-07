@@ -14,13 +14,13 @@ const testimonialOne = {
       image: "testimonial-one-img-1.png",
       review: 5,
       description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+      "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
       client: {
-        name: "Shirley Smith",
+        name: "Kevin Martin",
         role: "Customer",
       },
     },
-    {
+{
       id: 2,
       image: "testimonial-one-img-2.png",
       review: 5,
