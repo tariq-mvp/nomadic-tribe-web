@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 
-const { logo, icons, companies, explore, social, year, author, about } =
+const { logo, logo3, icons, companies, explore, social, year, author, about } =
   footerData;
 
 const SiteFooter = () => {
@@ -24,7 +24,7 @@ const SiteFooter = () => {
                   <div className="footer-widget__about-logo">
                     <Link href="/">
                       <a>
-                        <Image src={logo.src} alt="" />
+                        <Image src={logo3.src} alt="" />
                       </a>
                     </Link>
                   </div>

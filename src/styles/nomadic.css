@@ -1794,6 +1794,10 @@ ul {
   padding: 120px 0 0;
 }
 
+.challenge-level {
+  padding: 0px 0 100px;
+}
+
 .destinations-one .row {
   --bs-gutter-x: 10px;
 }

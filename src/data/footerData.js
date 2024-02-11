@@ -1,4 +1,5 @@
 import logo from "@/images/resources/footer-logo.png";
+import logo3 from "@/images/resources/footer-logo1.svg";
 
 const social = [
   { icon: "fa-twitter", link: "https://twitter.com/Nomdic_tribe_" },
@@ -9,6 +10,7 @@ const social = [
 
 const footerData = {
   logo,
+  logo3,
   social,
   year: new Date().getFullYear(),
   author: "Nomadic Tribe",
