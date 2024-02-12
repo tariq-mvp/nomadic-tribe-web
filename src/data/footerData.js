@@ -32,7 +32,7 @@ const footerData = {
     {
       id: 3,
       icon: "fas fa-map-marker-alt",
-      content: "666 road, broklyn street new york",
+      content: "850 New Burton Rd. Suite 201 Dover, DE 19904 USA",
     },
   ],
   companies: [
