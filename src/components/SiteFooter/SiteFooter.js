@@ -24,7 +24,7 @@ const SiteFooter = () => {
                   <div className="footer-widget__about-logo">
                     <Link href="/">
                       <a>
-                        <Image src={logo3.src} alt="" />
+                        <Image src={logo3.src} alt="" style={{ width: "150px" }}/>
                       </a>
                     </Link>
                   </div>
@@ -99,7 +99,7 @@ const SiteFooter = () => {
                       </button>
                     </div>
                   </form>
-                  <div className="mc-form__response text-center"></div>
+                  {/* <div className="mc-form__response text-center"></div>
                   <div className="footer-widget__newsletter-bottom">
                     <div className="footer-widget__newsletter-bottom-icon">
                       <i className="fa fa-check"></i>
@@ -107,7 +107,7 @@ const SiteFooter = () => {
                     <div className="footer-widget__newsletter-bottom-text">
                       <p>I agree to all terms and policies</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
             </Row>

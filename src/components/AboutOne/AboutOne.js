@@ -29,9 +29,10 @@ const AboutOne = () => {
             <div className="about-one__left">
               <div className="about-one__img-box">
                 <div className="about-one__img">
-                  <Image src={about.src} alt="" />
+                  {/* <Image src={about.src} alt="" /> */}
+                  <Image src={about} alt="" />
                 </div>
-                <div className="about-one__call">
+                {/* <div className="about-one__call">
                   <div className="about-one__call-icon">
                     <span className="icon-phone-call"></span>
                   </div>
@@ -44,8 +45,8 @@ const AboutOne = () => {
                 </div>
                 <div className="about-one__discount">
                   <h2>{discount}</h2>
-                  <h3>Discount</h3>
-                </div>
+                  <h3 style={{ color: "#FFC107" }}>Discount</h3>
+                </div> */}
               </div>
             </div>
           </Col>

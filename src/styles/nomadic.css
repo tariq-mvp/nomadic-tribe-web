@@ -55,7 +55,9 @@ body.locked {
 }
 
 a {
-  color: var(--thm-gray);
+  /* color: var(--thm-gray); */
+  /* color: var(--thm-primary); */
+  color: #0d6efd;
 }
 
 a,
@@ -7522,4 +7524,35 @@ ul {
 .brand-three {
   border-bottom: 0;
   border-top: 1px solid #ebe6de;
+}
+
+
+.privacy-policy {
+  padding: 120px 0 120px;
+}
+
+.terms-and-conditions {
+  padding: 120px 0 120px;
+}
+
+.code-of-ethics {
+  padding: 120px 0 120px;
+}
+
+.community-standards {
+  padding: 120px 0 120px;
+}
+
+.environmental-policy {
+  padding: 120px 0 120px;
+}
+
+.policies-title {
+  display: block;
+  color: var(--thm-primary);
+  font-size: 20px;
+  align-items: center;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: var(--thm-reey-font);
 }

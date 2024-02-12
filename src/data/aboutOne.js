@@ -3,7 +3,8 @@ import shape1 from "@/images/shapes/about-one-shape-1.png";
 import shape2 from "@/images/shapes/about-one-shape-2.png";
 
 const aboutOne = {
-  about,
+  // about,
+  about: "https://d2neuv05ura4o9.cloudfront.net/discovery_items/65/original.60ab6f60b34149.59289848.jpg",
   shape1,
   shape2,
   phone: "666-888-0000",

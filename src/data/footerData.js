@@ -43,11 +43,11 @@ const footerData = {
     { id: 5, link: "#", title: "Meet the Team" },
   ],
   explore: [
-    { id: 1, link: "#", title: "Account" },
-    { id: 2, link: "#", title: "Legal" },
-    { id: 3, link: "#", title: "Contact" },
-    { id: 4, link: "#", title: "Affilitate Program" },
-    { id: 5, link: "#", title: "Privacy Policy" },
+    { id: 1, link: "/privacy-policy", title: "Privacy Policy" },
+    { id: 2, link: "/terms-and-conditions", title: "Terms and Conditions" },
+    { id: 3, link: "/code-of-ethics", title: "Code of Ethics" },
+    { id: 4, link: "/community-standards", title: "Community Standards" },
+    { id: 5, link: "/environmental-policy", title: "Environmental Policy" },
   ],
 };
 
