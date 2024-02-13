@@ -99,8 +99,7 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                The ways in which you can use the App may also be subject to the
-                Apple App Store's rules and policies.
+                {"The ways in which you can use the App may also be subject to the Apple App Store's rules and policies."}
               </h6>
             </li>
           </ul>
@@ -201,10 +200,7 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                If you download the App onto any device not owned by you, you
-                must have the owner's permission to do so. You will be
-                responsible for complying with these Terms, whether or not you
-                own the device.
+                {"If you download the App onto any device not owned by you, you must have the owner's permission to do so. You will be responsible for complying with these Terms, whether or not you own the device."}
               </h6>
             </li>
             <li>
@@ -317,17 +313,17 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>No reliance on information</h3>
           <h6 style={{ marginTop: "10px" }}>
-          Still going strong? This section is about the information you find on our platform. We try our absolute hardest to make sure it’s accurate but we just can’t guarantee it.
+            Still going strong? This section is about the information you find on our platform. We try our absolute hardest to make sure it’s accurate but we just can’t guarantee it.
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We use reasonable efforts to ensure that the content on the Services that is provided by us is accurate and up-to-date, but we appreciate that errors or omissions may from time to time occur. We make no representations, warranties or guarantees, whether express or implied, that the content on the Services is accurate, complete or up-to-date.
+                We use reasonable efforts to ensure that the content on the Services that is provided by us is accurate and up-to-date, but we appreciate that errors or omissions may from time to time occur. We make no representations, warranties or guarantees, whether express or implied, that the content on the Services is accurate, complete or up-to-date.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              The content on the Services is provided for general information only. It is not intended to amount to advice on which you should rely. You should obtain independent, professional or specialist advice before taking, or refraining from, any action on the basis of the content on the Services.
+                The content on the Services is provided for general information only. It is not intended to amount to advice on which you should rely. You should obtain independent, professional or specialist advice before taking, or refraining from, any action on the basis of the content on the Services.
               </h6>
             </li>
           </ul>
@@ -335,49 +331,49 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>Limitation of our liability</h3>
           <h6 style={{ marginTop: "10px" }}>
-          We’ve arrived at liability. This section lets you know what we are and aren’t legally responsible for should anything happen.
+            We’ve arrived at liability. This section lets you know what we are and aren’t legally responsible for should anything happen.
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              Nothing in the Terms excludes or limits our liability for death or personal injury arising from our negligence, or our fraud or fraudulent misrepresentation, or any other liability that cannot be excluded or limited under applicable law.
+                Nothing in the Terms excludes or limits our liability for death or personal injury arising from our negligence, or our fraud or fraudulent misrepresentation, or any other liability that cannot be excluded or limited under applicable law.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              Different limitations and exclusions of liability will apply to liability arising as a result of any bookings my by you through us, which will be set out in separate terms and conditions for the supply of those services.
+                Different limitations and exclusions of liability will apply to liability arising as a result of any bookings my by you through us, which will be set out in separate terms and conditions for the supply of those services.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              To the maximum extent permitted by applicable law, we exclude all conditions, warranties, representations or other terms which may apply to the Services or any content on it, whether express or implied.
+                To the maximum extent permitted by applicable law, we exclude all conditions, warranties, representations or other terms which may apply to the Services or any content on it, whether express or implied.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We will not be liable to any user for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with:
+                We will not be liable to any user for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with:
               </h6>
               <ul>
                 <li>
                   <h6 style={{ marginTop: "10px" }}>
-                  Use of, or inability to use, the Services; or
+                    Use of, or inability to use, the Services; or
                   </h6>
                 </li>
                 <li>
                   <h6 style={{ marginTop: "10px" }}>
-                  Use of, or reliance on, any content displayed on the Services.
+                    Use of, or reliance on, any content displayed on the Services.
                   </h6>
                 </li>
               </ul>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We only provide the Services for domestic and private use. You agree not to use the Services for any commercial or business purposes, and we have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity.
+                We only provide the Services for domestic and private use. You agree not to use the Services for any commercial or business purposes, and we have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We assume no responsibility for the content of websites linked on the Services. Such links should not be interpreted as endorsement by us of those linked websites. We will not be liable for any loss or damage that may arise from your use of them.
+                We assume no responsibility for the content of websites linked on the Services. Such links should not be interpreted as endorsement by us of those linked websites. We will not be liable for any loss or damage that may arise from your use of them.
               </h6>
             </li>
           </ul>
@@ -385,57 +381,57 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>Uploading content to the services</h3>
           <h6 style={{ marginTop: "10px" }}>
-          Everyone’s favourite part of the tour. All about the content you upload. There’s lots in here so make sure you check it all. But the highlights are making sure you have the rights to the content you upload and that it isn’t harmful or inappropriate.
+            Everyone’s favourite part of the tour. All about the content you upload. There’s lots in here so make sure you check it all. But the highlights are making sure you have the rights to the content you upload and that it isn’t harmful or inappropriate.
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              Any and all content that you contribute to the Services must comply with these Terms and the <Link href={"/community-standards"}>Community Standards.</Link> You are responsible for compliance with applicable laws, rules and regulations when uploading content to the Services and you should only upload content that you are comfortable sharing with others.
+                Any and all content that you contribute to the Services must comply with these Terms and the <Link href={"/community-standards"}>Community Standards.</Link> You are responsible for compliance with applicable laws, rules and regulations when uploading content to the Services and you should only upload content that you are comfortable sharing with others.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              The Services may include information and content uploaded by others users of the Services. This information and content has not been verified or approved by us. We do not endorse, support, represent or guarantee the completeness, truthfulness, accuracy, or reliability of any content or information uploaded to the Services and the views and opinions expressed by others on the Services do not represent our views, opinions or values.
+                The Services may include information and content uploaded by others users of the Services. This information and content has not been verified or approved by us. We do not endorse, support, represent or guarantee the completeness, truthfulness, accuracy, or reliability of any content or information uploaded to the Services and the views and opinions expressed by others on the Services do not represent our views, opinions or values.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              By using the Services, you understand that you may be exposed to content that is offensive, harmful, inaccurate or otherwise inappropriate.
+                By using the Services, you understand that you may be exposed to content that is offensive, harmful, inaccurate or otherwise inappropriate.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              All content uploaded by users of the Services is the sole responsibility of the user who uploaded such content. We do not, and cannot, take responsibility for such content and we do not monitor or control the content uploaded by users of the Services.
+                All content uploaded by users of the Services is the sole responsibility of the user who uploaded such content. We do not, and cannot, take responsibility for such content and we do not monitor or control the content uploaded by users of the Services.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              You represent and warrant that you have, or have obtained, all rights, licenses, consents, permissions, power and/or authority necessary to grants the rights granted herein in respect of any and all content that you upload to the Services. You agree that any and all content that you upload to the Services will not contain material that is subject to copyright or other proprietary rights unless you have the necessary permission or are otherwise legally entitle to upload that content and to grant us the licence described in Rights you are giving us to use material you upload (see section 11 below).
+                You represent and warrant that you have, or have obtained, all rights, licenses, consents, permissions, power and/or authority necessary to grants the rights granted herein in respect of any and all content that you upload to the Services. You agree that any and all content that you upload to the Services will not contain material that is subject to copyright or other proprietary rights unless you have the necessary permission or are otherwise legally entitle to upload that content and to grant us the licence described in Rights you are giving us to use material you upload (see section 11 below).
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              You warrant that any and all content that you contribute to the Services complies with these Terms and the <Link href={"/community-standards"}>Community Standards,</Link> and you will be liable to us and indemnify us for any breach of that warranty. This means you will be responsible for any loss or damage we suffer as a result of your breach of warranty.
+                You warrant that any and all content that you contribute to the Services complies with these Terms and the <Link href={"/community-standards"}>Community Standards,</Link> and you will be liable to us and indemnify us for any breach of that warranty. This means you will be responsible for any loss or damage we suffer as a result of your breach of warranty.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              Any content you upload to the Services will be considered non-confidential and non-proprietary. You retain all of your ownership rights in your content, but you are required to grant us and other users of our site a limited licence to use, store and copy that content and to distribute and make it available to third parties. The rights you license to us are described in Rights you are giving us to use material you upload (see section 11 below).
+                Any content you upload to the Services will be considered non-confidential and non-proprietary. You retain all of your ownership rights in your content, but you are required to grant us and other users of our site a limited licence to use, store and copy that content and to distribute and make it available to third parties. The rights you license to us are described in Rights you are giving us to use material you upload (see section 11 below).
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We also have the right to disclose your identity to any third party who is claiming that any content posted or uploaded by you to our Services constitutes a violation of their intellectual property rights, or of their right to privacy.
+                We also have the right to disclose your identity to any third party who is claiming that any content posted or uploaded by you to our Services constitutes a violation of their intellectual property rights, or of their right to privacy.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We have the right to remove any posting you make on the Services if, in our opinion, the content you have uploaded does not comply with these Terms or our <Link href={"/community-standards"}>Community Standards.</Link> For example, any content that infringes intellectual property rights, or that constitutes unlawful conduct, or that is considered harassment may be removed.
+                We have the right to remove any posting you make on the Services if, in our opinion, the content you have uploaded does not comply with these Terms or our <Link href={"/community-standards"}>Community Standards.</Link> For example, any content that infringes intellectual property rights, or that constitutes unlawful conduct, or that is considered harassment may be removed.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              You are solely responsible for securing and backing up your content.
+                You are solely responsible for securing and backing up your content.
               </h6>
             </li>
           </ul>
@@ -443,12 +439,12 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>How to report content uploaded by other users</h3>
           <h6 style={{ marginTop: "10px" }}>
-          Just a quick stop to let you know how to report things uploaded by other users. We take every report seriously.
+            Just a quick stop to let you know how to report things uploaded by other users. We take every report seriously.
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              If you wish to complain about content uploaded by other users, please use the reporting features provided within the App.
+                If you wish to complain about content uploaded by other users, please use the reporting features provided within the App.
               </h6>
             </li>
           </ul>
@@ -456,17 +452,17 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>Rights you are giving us to user material you upload to the services</h3>
           <h6 style={{ marginTop: "10px" }}>
-          Now calling at: rights. For our services to work, and to be able to improve them, we need you to give us certain legal rights when you upload something you own. For example, we need the right to publish your photo so that we can actually make it visible on the platform and to your followers (depending on your privacy settings). Good to note: you keep ownership of your photo and you can remove our rights anytime by deleting it (or your account).
+            Now calling at: rights. For our services to work, and to be able to improve them, we need you to give us certain legal rights when you upload something you own. For example, we need the right to publish your photo so that we can actually make it visible on the platform and to your followers (depending on your privacy settings). Good to note: you keep ownership of your photo and you can remove our rights anytime by deleting it (or your account).
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              When you upload content to the Services that is protected by intellectual property rights, you grant us a non-exclusive, transferable, sub-licensable, royalty-free and worldwide licence to host, use, distribute, publish, transmit, adapt, modify, run, copy, publicly perform or display, translate and create derivative works of your content in any and all media or distribution methods (including those that are known now and that are developed later). Your licence permits us to make your content available to the rest of the world and to let others do the same.
+                When you upload content to the Services that is protected by intellectual property rights, you grant us a non-exclusive, transferable, sub-licensable, royalty-free and worldwide licence to host, use, distribute, publish, transmit, adapt, modify, run, copy, publicly perform or display, translate and create derivative works of your content in any and all media or distribution methods (including those that are known now and that are developed later). Your licence permits us to make your content available to the rest of the world and to let others do the same.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              This licence will end when you delete your content or account. Content that you delete may continue to exist on our systems on backup copies. Please also be aware that content you delete may continue to appear if you have made this available to, and/or shared it with, other users of the Services and they have not deleted it.
+                This licence will end when you delete your content or account. Content that you delete may continue to exist on our systems on backup copies. Please also be aware that content you delete may continue to appear if you have made this available to, and/or shared it with, other users of the Services and they have not deleted it.
               </h6>
             </li>
           </ul>
@@ -474,22 +470,22 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>Viruses</h3>
           <h6 style={{ marginTop: "10px" }}>
-          Don’t worry, we’re not lost. We’re pretty safe here. This section is more about how, together, we can prevent viruses. But we do mention your responsibilities should one pop up.
+            Don’t worry, we’re not lost. We’re pretty safe here. This section is more about how, together, we can prevent viruses. But we do mention your responsibilities should one pop up.
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              While we take reasonable care in managing the Services, we do not guarantee that the Services will be secure or free from bugs or viruses. You are responsible for configuring your information technology, computer programmes and platform in order to access the Services. You should use your own virus protection software.
+                While we take reasonable care in managing the Services, we do not guarantee that the Services will be secure or free from bugs or viruses. You are responsible for configuring your information technology, computer programmes and platform in order to access the Services. You should use your own virus protection software.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We will not be liable for any loss or damage caused by a virus, distributed denial-of-service attack, or other technologically harmful material that may infect your computer equipment, computer programs, data or other proprietary material due to your use of the Services or to your downloading of any content on it, or on any website linked to it.
+                We will not be liable for any loss or damage caused by a virus, distributed denial-of-service attack, or other technologically harmful material that may infect your computer equipment, computer programs, data or other proprietary material due to your use of the Services or to your downloading of any content on it, or on any website linked to it.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              You must not misuse the Services by knowingly introducing viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful. You must not attempt to gain unauthorised access to the Services, the server on which the Services are stored or any server, computer or database connected to the Services. You must not attack the Services via a denial-of-service attack or a distributed denial-of service attack. By breaching this provision, you would potentially be committing a criminal offence. We will report any such breach to the relevant law enforcement authorities and we will co-operate with those authorities by disclosing your identity to them. In the event of such a breach, your right to use the Services will cease immediately.
+                You must not misuse the Services by knowingly introducing viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful. You must not attempt to gain unauthorised access to the Services, the server on which the Services are stored or any server, computer or database connected to the Services. You must not attack the Services via a denial-of-service attack or a distributed denial-of service attack. By breaching this provision, you would potentially be committing a criminal offence. We will report any such breach to the relevant law enforcement authorities and we will co-operate with those authorities by disclosing your identity to them. In the event of such a breach, your right to use the Services will cease immediately.
               </h6>
             </li>
           </ul>
@@ -497,39 +493,39 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>Linking to the services</h3>
           <h6 style={{ marginTop: "10px" }}>
-          We’ll make a connection here. Whenever you link to us from anywhere else, for example if you post a link to Nomadic Tribe from another social media website, just make sure you follow these simple rules:
+            We’ll make a connection here. Whenever you link to us from anywhere else, for example if you post a link to Nomadic Tribe from another social media website, just make sure you follow these simple rules:
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              You may link to our home page, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it.
+                You may link to our home page, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              You must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists without our prior consent.
+                You must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists without our prior consent.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              You must not establish a link to the Services in any website that is not owned by you.
+                You must not establish a link to the Services in any website that is not owned by you.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              The Services must not be framed on any other site, nor may you create a link to any part of this Site other than the home page.
+                The Services must not be framed on any other site, nor may you create a link to any part of this Site other than the home page.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We reserve the right to withdraw linking permission without notice.
+                We reserve the right to withdraw linking permission without notice.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              If you wish to make any use of content on our site other than that set out above, please contact us at <a href={`mailto:support@nomadictribe.com`}>
-              {"support@nomadictribe.com"}
-            </a>.
+                If you wish to make any use of content on our site other than that set out above, please contact us at <a href={`mailto:support@nomadictribe.com`}>
+                  {"support@nomadictribe.com"}
+                </a>.
               </h6>
             </li>
           </ul>
@@ -537,12 +533,12 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>Third party links and resources on the services</h3>
           <h6 style={{ marginTop: "10px" }}>
-          We’re getting on, just a few stops left. This is about links to other places from our service. For example, you may find a link to another company’s website that either we or another user have posted on our platform. Just remember that we don’t have any control over what’s on that website.
+            We’re getting on, just a few stops left. This is about links to other places from our service. For example, you may find a link to another company’s website that either we or another user have posted on our platform. Just remember that we don’t have any control over what’s on that website.
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              Where the Services contain links to other sites, content and resources provided by third parties, these links are provided for your information only. We have no control over the contents of those sites or resources.
+                Where the Services contain links to other sites, content and resources provided by third parties, these links are provided for your information only. We have no control over the contents of those sites or resources.
               </h6>
             </li>
           </ul>
@@ -550,22 +546,22 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>General provisions</h3>
           <h6 style={{ marginTop: "10px" }}>
-          Coming up next, general provisions. These are just a few quick notes about these terms.
+            Coming up next, general provisions. These are just a few quick notes about these terms.
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We may revise these Terms at any time by amending this page without notice. Please check this page from time to time to take notice of any changes we made, as they are binding on you.
+                We may revise these Terms at any time by amending this page without notice. Please check this page from time to time to take notice of any changes we made, as they are binding on you.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We may update Services from time to time, and may change the content at any time. However, please note that any of the content on the Services may be not fully up to date at any given time, and we are under no obligation to update it.
+                We may update Services from time to time, and may change the content at any time. However, please note that any of the content on the Services may be not fully up to date at any given time, and we are under no obligation to update it.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              The Terms, their subject matter and their formation are governed by English law and are subject to the exclusive jurisdiction of the courts of England and Wales.
+                The Terms, their subject matter and their formation are governed by English law and are subject to the exclusive jurisdiction of the courts of England and Wales.
               </h6>
             </li>
           </ul>
@@ -573,27 +569,27 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>Bookings</h3>
           <h6 style={{ marginTop: "10px" }}>
-          Our tour is coming to an end now. But before we finish, let’s talk about when you book a trip through our platform. We won’t go into too much detail here as you’ll have a different set of terms and conditions when booking.
+            Our tour is coming to an end now. But before we finish, let’s talk about when you book a trip through our platform. We won’t go into too much detail here as you’ll have a different set of terms and conditions when booking.
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              If you make any bookings to visit a tribe and/or a location through us, such bookings will be subject to separate terms and conditions for the supply of those services.
+                If you make any bookings to visit a tribe and/or a location through us, such bookings will be subject to separate terms and conditions for the supply of those services.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              The person making the booking shall be responsible for making all payments to the relevant parties and providing any necessary documentation concerning the individuals who are named on the booking.
+                The person making the booking shall be responsible for making all payments to the relevant parties and providing any necessary documentation concerning the individuals who are named on the booking.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              Prior to finalising any bookings and/or travelling to your chosen destination, please review all material we provide that is specific to your booking. You must comply with the requirements set out in such material. If you do not agree with, or shall be unable to comply with, any of the requirements set out in such material, please let us know. This may affect your ability to travel to the chosen destination.
+                Prior to finalising any bookings and/or travelling to your chosen destination, please review all material we provide that is specific to your booking. You must comply with the requirements set out in such material. If you do not agree with, or shall be unable to comply with, any of the requirements set out in such material, please let us know. This may affect your ability to travel to the chosen destination.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              We shall only have responsibility and obligations in connection with your booking as specifically agreed between us in writing.
+                We shall only have responsibility and obligations in connection with your booking as specifically agreed between us in writing.
               </h6>
             </li>
           </ul>
@@ -601,14 +597,14 @@ const Index = () => {
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ fontWeight: "600" }}>Contact us</h3>
           <h6 style={{ marginTop: "10px" }}>
-          Our final stop. If you need to get in touch, here’s how to do so.
+            Our final stop. If you need to get in touch, here’s how to do so.
           </h6>
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-              To contact us, please email at <a href={`mailto:support@nomadictribe.com`}>
-              {"support@nomadictribe.com"}
-            </a>.
+                To contact us, please email at <a href={`mailto:support@nomadictribe.com`}>
+                  {"support@nomadictribe.com"}
+                </a>.
               </h6>
             </li>
           </ul>

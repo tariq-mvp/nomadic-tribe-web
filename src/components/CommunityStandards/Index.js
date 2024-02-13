@@ -405,8 +405,7 @@ const Index = () => {
                 </li>
                 <li>
                   <h6 style={{ marginTop: "10px" }}>
-                    Be threatening, abuse or invade another's privacy, or cause
-                    annoyance, inconvenience or needless anxiety.
+                    {"Be threatening, abuse or invade another's privacy, or cause annoyance, inconvenience or needless anxiety."}
                   </h6>
                 </li>
                 <li>

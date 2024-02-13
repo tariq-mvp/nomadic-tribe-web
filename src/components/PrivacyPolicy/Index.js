@@ -1295,10 +1295,7 @@ const Index = () => {
             make them better for you.
           </h6>
           <h6 style={{ marginTop: "25px" }}>
-            We utilize Mixpanel for tracking user-driven events in our App. If
-            you get a new device, install a new browser, erase or otherwise
-            alter your browser's cookie file (including upgrading certain
-            browsers) you may also clear the Mixpanel opt-out cookie.
+            {"We utilize Mixpanel for tracking user-driven events in our App. If you get a new device, install a new browser, erase or otherwise alter your browser's cookie file (including upgrading certain browsers) you may also clear the Mixpanel opt-out cookie."}
           </h6>
           <h6 style={{ marginTop: "25px" }}>
             We use Stripe for payment services. Stripe collects identifying
@@ -1390,7 +1387,7 @@ const Index = () => {
           <ul>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"App" </strong>
+                <strong>{"App"}{" "}</strong>
                 means any application made available by us (including where we
                 make such applications available via third party stores or
                 marketplaces, or by any other means).
@@ -1398,7 +1395,7 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Adequate Jurisdiction" </strong>
+                <strong>{"Adequate Jurisdiction"}{" "} </strong>
                 means a jurisdiction that has been formally designated by the
                 European Commission as providing an adequate level of protection
                 for Personal Data.
@@ -1406,7 +1403,7 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Cookie" </strong>
+                <strong>{"Cookie"}{" "} </strong>
                 means a small file that is placed on your device when you visit
                 a website (including our Sites). In this Notice, a reference to
                 a “Cookie” includes analogous technologies such as web beacons
@@ -1415,7 +1412,7 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Controller" </strong>
+                <strong>{"Controller"}{" "} </strong>
                 means the entity that decides how and why Personal Data are
                 Processed. In many jurisdictions, the Controller has primary
                 responsibility for complying with applicable data protection
@@ -1424,20 +1421,20 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Data Protection Authority" </strong>
+                <strong>{"Data Protection Authority"}{" "} </strong>
                 means an independent public authority that is legally tasked
                 with overseeing compliance with applicable data protection laws.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"EEA" </strong>
+                <strong>{"EEA"}{" "} </strong>
                 means the European Economic Area.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Personal Data" </strong>
+                <strong>{"Personal Data"}{" "} </strong>
                 means information that is about any individual, or from which
                 any individual is directly or indirectly identifiable, in
                 particular by reference to an identifier such as a name, an
@@ -1449,7 +1446,7 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Process”, “Processing” or “Processed" </strong>
+                <strong>{"Process”, “Processing” or “Processed"} {" "} </strong>
                 means anything that is done with any Personal Data, whether or
                 not by automated means, such as collection, recording,
                 organisation, structuring, storage, adaptation or alteration,
@@ -1460,7 +1457,7 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Processor" </strong>
+                <strong>{'"Processor"'} {" "} </strong>
                 means anything that is done with any Personal Data, whether or
                 not by automated means, such as collection, recording,
                 organisation, structuring, storage, adaptation or alteration,
@@ -1471,24 +1468,19 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Profiling" </strong>
-                means any form of automated Processing of Personal Data
-                consisting of the use of Personal Data to evaluate certain
-                personal aspects relating to a natural person, in particular to
-                analyse or predict aspects concerning that natural person's
-                personal preferences, interests, behaviour, location or
-                movements.
+                <strong>{'"Profiling"'}{" "} </strong>
+                {"means any form of automated Processing of Personal Data consisting of the use of Personal Data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's personal preferences, interests, behaviour, location or movements."}
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Relevant Personal Data" </strong>
+                <strong>{'"Relevant Personal Data"'}{" "} </strong>
                 means Personal Data in respect of which we are the Controller.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Sensitive Personal Data" </strong>
+                <strong>{'"Sensitive Personal Data"'}{" "} </strong>
                 means Personal Data about race or ethnicity, political opinions,
                 religious or philosophical beliefs, trade union membership,
                 physical or mental health, sexual life, any actual or alleged
@@ -1499,14 +1491,14 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Social Media Platform" </strong>
+                <strong>{'"Social Media Platform"'}{" "} </strong>
                 means the NomadicTribe social media platform which is accessible
                 through our Apps and Sites.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Standard Contractual Clauses" </strong>
+                <strong>{'"Standard Contractual Clauses"'}{" "} </strong>
                 means template transfer clauses adopted by the European
                 Commission or adopted by a Data Protection Authority and
                 approved by the European Commission.
@@ -1514,7 +1506,7 @@ const Index = () => {
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
-                <strong>"Site" </strong>
+                <strong>{'"Site"'}{" "} </strong>
                 means any website operated, or maintained, by us or on our
                 behalf.
               </h6>
