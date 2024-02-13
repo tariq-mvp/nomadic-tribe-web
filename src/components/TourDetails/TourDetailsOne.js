@@ -26,7 +26,7 @@ const TourDetailsOne = () => {
                         <span className="icon-clock"></span>
                       </div>
                       <div className="text">
-                        <p>Duration</p>
+                        {/* <p>Duration</p> */}
                         <h6>{duration}</h6>
                       </div>
                     </li>
@@ -35,8 +35,8 @@ const TourDetailsOne = () => {
                         <span className="icon-user"></span>
                       </div>
                       <div className="text">
-                        <p>Min Age</p>
-                        <h6>{minAge}</h6>
+                        <p>Region is Southern Asia</p>
+                        {/* <h6>{minAge}</h6> */}
                       </div>
                     </li>
                     <li>
@@ -44,8 +44,8 @@ const TourDetailsOne = () => {
                         <span className="icon-plane"></span>
                       </div>
                       <div className="text">
-                        <p>Tour Type</p>
-                        <h6>{tourType}</h6>
+                        <p>Challenge is Moderate</p>
+                        {/* <h6>{tourType}</h6> */}
                       </div>
                     </li>
                     <li>
@@ -53,8 +53,8 @@ const TourDetailsOne = () => {
                         <span className="icon-place"></span>
                       </div>
                       <div className="text">
-                        <p>Location</p>
-                        <h6>{location}</h6>
+                        <p>Climate here is Tropical</p>
+                        {/* <h6>{location}</h6> */}
                       </div>
                     </li>
                   </ul>

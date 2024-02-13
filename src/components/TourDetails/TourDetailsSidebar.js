@@ -89,7 +89,7 @@ const TourDetailsSidebar = () => {
   return (
     <div className="tour-details-two__sidebar">
       <div className="tour-details-two__book-tours">
-        <h3 className="tour-details-two__sidebar-title">Book Tours</h3>
+        <h3 className="tour-details-two__sidebar-title">Booking</h3>
         <form
           onSubmit={handleSubmit}
           className="tour-details-two__sidebar-form"
@@ -156,7 +156,7 @@ const TourDetailsSidebar = () => {
           </button>
         </form>
       </div>
-      <div className="tour-details-two__last-minute">
+      {/* <div className="tour-details-two__last-minute">
         <h3 className="tour-details-two__sidebar-title">Last Minute</h3>
         <ul className="tour-details-two__last-minute-list list-unstyled">
           {tourDetailsSidebar.map(({ id, title, image, price, location }) => (
@@ -175,7 +175,7 @@ const TourDetailsSidebar = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

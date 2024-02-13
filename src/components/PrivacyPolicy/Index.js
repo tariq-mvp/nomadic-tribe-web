@@ -296,15 +296,17 @@ const Index = () => {
                 making future bookings as per our Terms and Conditions and
                 Community Standards; and (ii) removed from our Social Media
                 Platform and/or prevented from using our Sites and/or the Apps
-                as per our Terms and Conditions and <Link href={"/community-standards"}>Community Standards.</Link>
+                as per our Terms and Conditions and{" "}
+                <Link href={"/community-standards"}>Community Standards.</Link>
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>Community Standards:</strong> information relating to
-                your compliance with our <Link href={"/community-standards"}>Community Standards,</Link> including
-                information relating to allegations of non-compliance and
-                complaints made about content you have posted on our Social
+                your compliance with our{" "}
+                <Link href={"/community-standards"}>Community Standards,</Link>{" "}
+                including information relating to allegations of non-compliance
+                and complaints made about content you have posted on our Social
                 Media Platform, your behaviour on the Social Media Platform
                 generally and information relating to any investigation
                 conducted by us in response to any complaint about you or
@@ -1405,18 +1407,26 @@ const Index = () => {
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Cookie" </strong>
-                means a small file that is placed on your device when you visit a website (including our Sites). In this Notice, a reference to a “Cookie” includes analogous technologies such as web beacons and clear GIFs.
+                means a small file that is placed on your device when you visit
+                a website (including our Sites). In this Notice, a reference to
+                a “Cookie” includes analogous technologies such as web beacons
+                and clear GIFs.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Controller" </strong>
-                means the entity that decides how and why Personal Data are Processed. In many jurisdictions, the Controller has primary responsibility for complying with applicable data protection laws.              </h6>
+                means the entity that decides how and why Personal Data are
+                Processed. In many jurisdictions, the Controller has primary
+                responsibility for complying with applicable data protection
+                laws.{" "}
+              </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Data Protection Authority" </strong>
-                means an independent public authority that is legally tasked with overseeing compliance with applicable data protection laws.
+                means an independent public authority that is legally tasked
+                with overseeing compliance with applicable data protection laws.
               </h6>
             </li>
             <li>
@@ -1428,25 +1438,46 @@ const Index = () => {
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Personal Data" </strong>
-                means information that is about any individual, or from which any individual is directly or indirectly identifiable, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that individual.
+                means information that is about any individual, or from which
+                any individual is directly or indirectly identifiable, in
+                particular by reference to an identifier such as a name, an
+                identification number, location data, an online identifier or to
+                one or more factors specific to the physical, physiological,
+                genetic, mental, economic, cultural or social identity of that
+                individual.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Process”, “Processing” or “Processed" </strong>
-                means anything that is done with any Personal Data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.
+                means anything that is done with any Personal Data, whether or
+                not by automated means, such as collection, recording,
+                organisation, structuring, storage, adaptation or alteration,
+                retrieval, consultation, use, disclosure by transmission,
+                dissemination or otherwise making available, alignment or
+                combination, restriction, erasure or destruction.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Processor" </strong>
-                means anything that is done with any Personal Data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.
+                means anything that is done with any Personal Data, whether or
+                not by automated means, such as collection, recording,
+                organisation, structuring, storage, adaptation or alteration,
+                retrieval, consultation, use, disclosure by transmission,
+                dissemination or otherwise making available, alignment or
+                combination, restriction, erasure or destruction.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Profiling" </strong>
-                means any form of automated Processing of Personal Data consisting of the use of Personal Data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's personal preferences, interests, behaviour, location or movements.
+                means any form of automated Processing of Personal Data
+                consisting of the use of Personal Data to evaluate certain
+                personal aspects relating to a natural person, in particular to
+                analyse or predict aspects concerning that natural person's
+                personal preferences, interests, behaviour, location or
+                movements.
               </h6>
             </li>
             <li>
@@ -1458,25 +1489,34 @@ const Index = () => {
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Sensitive Personal Data" </strong>
-                means Personal Data about race or ethnicity, political opinions, religious or philosophical beliefs, trade union membership, physical or mental health, sexual life, any actual or alleged criminal offences or penalties, national identification number, or any other information that are deemed to be sensitive under applicable law.
+                means Personal Data about race or ethnicity, political opinions,
+                religious or philosophical beliefs, trade union membership,
+                physical or mental health, sexual life, any actual or alleged
+                criminal offences or penalties, national identification number,
+                or any other information that are deemed to be sensitive under
+                applicable law.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Social Media Platform" </strong>
-                means the NomadicTribe social media platform which is accessible through our Apps and Sites.
+                means the NomadicTribe social media platform which is accessible
+                through our Apps and Sites.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Standard Contractual Clauses" </strong>
-                means template transfer clauses adopted by the European Commission or adopted by a Data Protection Authority and approved by the European Commission.
+                means template transfer clauses adopted by the European
+                Commission or adopted by a Data Protection Authority and
+                approved by the European Commission.
               </h6>
             </li>
             <li>
               <h6 style={{ marginTop: "10px" }}>
                 <strong>"Site" </strong>
-                means any website operated, or maintained, by us or on our behalf.
+                means any website operated, or maintained, by us or on our
+                behalf.
               </h6>
             </li>
           </ul>

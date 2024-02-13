@@ -1,7 +1,7 @@
 export const tourDetailsOne = {
-  title: "National Park 2 Days Tour",
-  rate: 870,
-  duration: "3 Days",
+  title: "Cultural Experience in India - The Bhutia tribe of Sikkim",
+  rate: 1123,
+  duration: "5 Days",
   minAge: "12 +",
   tourType: "Adventure, Fun",
   location: "Los Angeles",
@@ -12,7 +12,7 @@ export const tourDetailsOne = {
 export const tourDetailsLeft = {
   superb: "7.0",
   overview:
-    "Lorem ipsum available isn but the majority have suffered alteratin in some or form injected simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros.",
+    "This trip starts with a short experience in the bustling city of kolkata followed by the remote state of sikkim in North East India. Experience the daily lives of Bhutia people (migrant communities from Bhutan) from close quarters as you live with the families. You experience their cuisine, local dances and music, customs and traditions, festivals, agrarian practies, religion, environment and much more.",
   overviewList: [
     "Pick and Drop Services",
     "1 Meal Per Day",
@@ -26,21 +26,43 @@ export const tourDetailsLeft = {
   faq: [
     {
       id: 1,
-      title: "Arrive South Africa Forest",
-      text: "There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.",
-      lists: ["Free Drinks", "Awesome Breakfast", "5 Star Accommodation"],
+      title: "Home",
+      text: "The Bhutia live in small villages in three mountain districts and usually have two settlements, one for summer and one for winter, made up of rectangular stone houses known as khin.",
     },
     {
       id: 2,
-      title: "Lunch Inside of Forest & Adventure",
-      text: "There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.",
-      lists: ["Free Drinks", "Awesome Breakfast", "5 Star Accommodation"],
+      title: "Life",
+      text: "The community tend to libe on isolated farms, separated by almost impassable land. Today, about a third of the Bhutia are also involved in weaving and embroidery.",
     },
     {
       id: 3,
-      title: "Depart from South Africa",
-      text: "There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.",
-      lists: ["Free Drinks", "Awesome Breakfast", "5 Star Accommodation"],
+      title: "Art",
+      text: "Bhutia women have a reputation a reputation as excellent weavers and embroiderers. The community also has a rich culture of folk dances like Talachi, Lu Khangthamo, Gha To Kito and Be Yu Mista",
+    },
+    {
+      id: 4,
+      title: "Celebrations",
+      text: "The Bhutia live in small villages in three mountain districts and usually have two settlements, one for summer and one for winter, made up of rectangular stone houses known as Khin",
+    },
+    {
+      id: 5,
+      title: "Religion",
+      text: "Most Bhutia practice a form of Tibetan Buddhism. Depending on the specific Bhutia community, a mixture of Lamaist Buddhism, Hinduism and animism is also practiced",
+    },
+    {
+      id: 6,
+      title: "Social Structure",
+      text: "Their society was once feudal, with most of the population working for gentry. Arranged marriages are becoming more common, with weddings featuring Hindu rituals.",
+    },
+    {
+      id: 7,
+      title: "Traditions",
+      text: "The cult of ancestors is an essential part of Bhutia's life, and they believe in ghosts and spirits. When a community is affected by misfortune, a priest is sought out to identify the cause",
+    },
+    {
+      id: 8,
+      title: "Further knowledge",
+      text: "Rice is the staple food. Snacks are made of either maize or rice and drinks comprise butter tea or local wine made from rice, millets, fruits etc. No meal is complete without a meat dish.",
     },
   ],
   reviewScore: [
