@@ -1,7 +1,10 @@
 import { tourDetailsOne } from "@/data/tourDetailsPage";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-
+import region from "@/images/icons/region.png"
+import moderate from "@/images/icons/moderate.png"
+import tropical from "@/images/icons/tropical.png"
+import Image from "next/image";
 const { title, rate, duration, minAge, tourType, location, date, superb } =
   tourDetailsOne;
 
@@ -26,22 +29,24 @@ const TourDetailsOne = () => {
                         <span className="icon-clock"></span>
                       </div>
                       <div className="text">
-                        {/* <p>Duration</p> */}
                         <h6>{duration}</h6>
                       </div>
                     </li>
                     <li>
                       <div className="icon">
-                        <span className="icon-user"></span>
+                        {/* <span className="icon-user"></span> */}
+                        <Image src={region}  width= "35px" height= "35px" ></Image>
                       </div>
-                      <div className="text">
+                        {/* style={{ color:"#FFC107" }} */}
+                      <div className="text" >
                         <p>Region is Southern Asia</p>
                         {/* <h6>{minAge}</h6> */}
                       </div>
                     </li>
                     <li>
                       <div className="icon">
-                        <span className="icon-plane"></span>
+                        {/* <span className="icon-plane"></span> */}
+                        <Image src={moderate}  width= "35px" height= "35px" ></Image>
                       </div>
                       <div className="text">
                         <p>Challenge is Moderate</p>
@@ -50,7 +55,7 @@ const TourDetailsOne = () => {
                     </li>
                     <li>
                       <div className="icon">
-                        <span className="icon-place"></span>
+                      <Image src={tropical}  width= "35px" height= "35px" ></Image>
                       </div>
                       <div className="text">
                         <p>Climate here is Tropical</p>
@@ -64,7 +69,7 @@ const TourDetailsOne = () => {
           </Row>
         </Container>
       </div>
-      <div className="tour-details__bottom">
+      {/* <div className="tour-details__bottom">
         <Container>
           <Row>
             <Col xl={12}>
@@ -100,7 +105,7 @@ const TourDetailsOne = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </section>
   );
 };
