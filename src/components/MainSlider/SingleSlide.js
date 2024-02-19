@@ -2,16 +2,15 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { SwiperSlide } from "swiper/react";
 
-const SingleSlide = ({ slide = {} }) => {
-  const { bg, subTitle, title } = slide;
-
+const SingleSlide = ({ slide }) => {
+  const subTitle = "Where Would You Like To Go?";
+  const title = "Travel & Adventures";
   return (
     <SwiperSlide>
       <div
         className="image-layer"
         style={{
-          // backgroundImage: `url(${bg.src})`,
-          backgroundImage: `url(${bg})`,
+          backgroundImage: `url(${slide})`,
         }}
       ></div>
       <div className="image-layer-overlay"></div>

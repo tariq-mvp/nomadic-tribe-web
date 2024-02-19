@@ -12,26 +12,27 @@ import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
 import TourSearch from "@/components/TourSearch/TourSearch";
 import VideoOne from "@/components/VideoOne/VideoOne";
 import WhyChoose from "@/components/WhyChoose/WhyChoose";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { fetchHomeData } from "src/api";
 
 const Home = () => {
-  // useEffect(() => {
-  //   fetchData()
-  // }, [])
+  const [data, setData] = useState([])
+  useEffect(() => {
+    fetchData()
+  }, [])
 
-  // const fetchData = async () => {
-  //   try {
-  //     const result = await fetchHomeData();
-  //     console.log("result", result?.data);
-  //   } catch(err) {
-  //     console.log("error", err);
-  //   }
-  // }
+  const fetchData = async () => {
+    try {
+      const result = await fetchHomeData();
+      setData(result?.data);
+    } catch(err) {
+      console.log("error", err);
+    }
+  }
   
   return (
     <Layout pageTitle="Nomadic Tribe">
-      <MainSlider />
+      <MainSlider data={data}/>
       <TourSearch />
       <DestinationsOne />
       <AboutOne />
