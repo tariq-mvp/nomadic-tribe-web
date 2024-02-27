@@ -2,29 +2,22 @@ import Link from "next/link";
 import React from "react";
 import { Col, Image } from "react-bootstrap";
 
-const SingleChallengeLevel = ({ destination = {} }) => {
-  const { image, title, tours, subTitle, col } = destination;
-
+const SingleChallengeLevel = ({ challenge }) => {
   return (
-    // <Col xl={col} lg={col}>
     <Col xl={4} lg={4}>
       <div className="destinations-one__single">
         <div className="destinations-one__img">
           <Image
-            // src={require(`@/images/destination/${image}`).default.src}
-            src={image}
+            src={challenge?.image}
             alt=""
           />
           <div className="destinations-one__content">
-            {subTitle && (
-              <p className="destinations-one__sub-title">{subTitle}</p>
-            )}
             <h2 className="destinations-one__title">
-              <Link href="/destinations-details">{title}</Link>
+              <Link href="/destinations-details">{challenge?.name}</Link>
             </h2>
           </div>
           <div className="destinations-one__button">
-            <a href="#">{tours} tours</a>
+            <a href="#">{"11"} tours</a>
           </div>
         </div>
       </div>

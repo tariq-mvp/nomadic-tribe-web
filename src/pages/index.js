@@ -25,23 +25,24 @@ const Home = () => {
     try {
       const result = await fetchHomeData();
       setData(result?.data);
+      console.log("result", result?.data)
     } catch(err) {
       console.log("error", err);
     }
   }
   
-  return (
+  return ( 
     <Layout pageTitle="Nomadic Tribe">
       <MainSlider data={data}/>
-      <TourSearch />
-      <DestinationsOne />
+      {/* <TourSearch /> */}
+      <DestinationsOne data={data}/>
       <AboutOne />
-      <PopularTours />
-      <ChallengeLevel />
+      <PopularTours data={data}/>
+      <ChallengeLevel data={data}/>
       <Climb />
       <VideoOne />
       <BrandOne />
-      <TestimonialOne />
+      <TestimonialOne data={data}/>
       <GalleryOne />
       <WhyChoose />
       <NewsOne />

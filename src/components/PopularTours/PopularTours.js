@@ -30,7 +30,8 @@ const settings = {
   },
 };
 
-const PopularTours = () => {
+const PopularTours = ({data}) => {
+  const featuredPrograms = data?.featuredPrograms ?? [];
   return (
     <section className="popular-tours">
       <div className="popular-tours__container">
@@ -42,8 +43,8 @@ const PopularTours = () => {
           <Col xl={12}>
             <div className="popular-tours__carousel">
               <TinySlider settings={settings}>
-                {popularTours.map((tour) => (
-                  <SingleTour key={tour.id} tour={tour} />
+                {featuredPrograms?.map((item, index) => (
+                  <SingleTour key={index} tour={item} />
                 ))}
               </TinySlider>
             </div>

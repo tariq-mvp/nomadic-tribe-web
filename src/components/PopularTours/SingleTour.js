@@ -2,9 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 
-const SingleTour = ({ tour = {}, userSelect = false }) => {
-  const { image, title, meta, rate, superb } = tour;
-
+const SingleTour = ({ tour, userSelect = false }) => {
   return (
     <div>
       <div
@@ -13,8 +11,7 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
       >
         <div className="popular-tours__img">
           <Image
-            // src={require(`@/images/resources/${image}`).default.src}
-            src={image}
+            src={tour?.banner}
             alt=""
           />
           <div className="popular-tours__icon">
@@ -27,20 +24,18 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
         </div>
         <div className="popular-tours__content">
           <div className="popular-tours__stars">
-            <i className="fa fa-star"></i> {superb} Superb
+            <i className="fa fa-star"></i> {"8.0"} Superb
           </div>
           <h3 className="popular-tours__title">
-            <Link href="/tour-details">{title}</Link>
+            <Link href="/tour-details">{tour?.name}</Link>
           </h3>
           <p className="popular-tours__rate">
-            <span>${rate}</span> / Per Person
+            <span>${tour?.starting_from}</span> / Per Person
           </p>
           <ul className="popular-tours__meta list-unstyled">
-            {meta.map((item, index) => (
-              <li key={index}>
-                <Link href="/tour-details">{item}</Link>
+              <li>
+                <Link href="/tour-details">{(tour?.tribe_no_of_days || "5") + " " + "Days" + " " + tour?.tribe_region}</Link>
               </li>
-            ))}
           </ul>
         </div>
       </div>

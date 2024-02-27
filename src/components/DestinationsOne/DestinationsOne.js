@@ -2,8 +2,9 @@ import destinationsOne from "@/data/destinationsOne";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import SingleDestination from "./SingleDestination";
+import Link from "next/link";
 
-const DestinationsOne = () => {
+const DestinationsOne = ({data}) => {
   return (
     <section className="destinations-one">
       <Container>
@@ -13,9 +14,12 @@ const DestinationsOne = () => {
             Here you can find experiences by destination
           </h2>
         </div>
+        <div style={{ textAlign:"right" }}>
+        <Link href="/destinations">View All</Link>
+        </div>
         <Row className="masonary-layout">
-          {destinationsOne.slice(0, 6).map((destination) => (
-            <SingleDestination key={destination.id} destination={destination} />
+          {data?.tribeRegions?.slice(0, 6)?.map((item) => (
+            <SingleDestination key={item._id} destination={item} />
           ))}
         </Row>
       </Container>

@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import SingleChallengeLevel from "./SingleChallengeLevel";
 
-const ChallengeLevel = () => {
+const ChallengeLevel = ({data}) => {
   return (
     <section className="destinations-one challenge-level">
       <Container>
@@ -14,8 +14,8 @@ const ChallengeLevel = () => {
           </h2>
         </div>
         <Row className="masonary-layout">
-          {challengeLevel.slice(0, 6).map((destination) => (
-            <SingleChallengeLevel key={destination.id} destination={destination} />
+          {data?.tribeChallenges?.map((item) => (
+            <SingleChallengeLevel key={item._id} challenge={item} />
           ))}
         </Row>
       </Container>
