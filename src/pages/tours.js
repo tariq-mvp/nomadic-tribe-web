@@ -7,7 +7,7 @@ const Tours = () => {
   return (
     <Layout pageTitle="Tours">
       <PageHeader title="Popular Tours" page="Tours" />
-      <PopularToursTwo toursPage />
+      {/* <PopularToursTwo toursPage /> */}
     </Layout>
   );
 };
