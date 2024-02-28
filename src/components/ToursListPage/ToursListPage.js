@@ -3,7 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import ToursListLeft from "./ToursListLeft";
 import ToursListRight from "./ToursListRight";
 
-const ToursListPage = () => {
+const ToursListPage = ({data}) => {
+  console.log("data", data);
   return (
     <section className="tours-list">
       <Container>
@@ -12,7 +13,7 @@ const ToursListPage = () => {
             <ToursListLeft />
           </Col>
           <Col xl={8} lg={7}>
-            <ToursListRight />
+            <ToursListRight data={data}/>
           </Col>
         </Row>
       </Container>

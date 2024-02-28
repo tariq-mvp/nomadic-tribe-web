@@ -24,7 +24,7 @@ const PopularToursTwo = ({ toursPage = false }) => {
               md={6}
               className="animated fadeInUp"
             >
-              {/* <SingleTour tour={tour} userSelect /> */}
+              <SingleTour tour={tour} userSelect />
             </Col>
           ))}
         </Row>

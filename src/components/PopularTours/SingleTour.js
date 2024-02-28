@@ -3,6 +3,7 @@ import React from "react";
 import { Image } from "react-bootstrap";
 
 const SingleTour = ({ tour, userSelect = false }) => {
+  console.log("tour", tour)
   return (
     <div>
       <div
@@ -27,14 +28,14 @@ const SingleTour = ({ tour, userSelect = false }) => {
             <i className="fa fa-star"></i> {"8.0"} Superb
           </div>
           <h3 className="popular-tours__title">
-            <Link href="/tour-details">{tour?.name}</Link>
+            <Link href={`/program-detail/${tour?.id}`}>{tour?.name}</Link>
           </h3>
           <p className="popular-tours__rate">
             <span>${tour?.starting_from}</span> / Per Person
           </p>
           <ul className="popular-tours__meta list-unstyled">
               <li>
-                <Link href="/tour-details">{(tour?.tribe_no_of_days || "5") + " " + "Days" + " " + tour?.tribe_region}</Link>
+                <Link href={`/program-detail/${tour?.id}`}>{(tour?.tribe_no_of_days || "5") + " " + "Days" + " " + tour?.tribe_region}</Link>
               </li>
           </ul>
         </div>

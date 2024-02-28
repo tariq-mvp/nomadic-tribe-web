@@ -15,7 +15,7 @@ const SingleDestination = ({ destination }) => {
           />
           <div className="destinations-one__content">
             <h2 className="destinations-one__title">
-              <Link href="/destinations-details">{name}</Link>
+              <Link href={`/program/${name}`}>{name}</Link>
             </h2>
           </div>
         </div>

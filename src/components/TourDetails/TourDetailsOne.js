@@ -8,7 +8,7 @@ import Image from "next/image";
 const { title, rate, duration, minAge, tourType, location, date, superb } =
   tourDetailsOne;
 
-const TourDetailsOne = () => {
+const TourDetailsOne = ({data}) => {
   return (
     <section className="tour-details">
       <div className="tour-details__top">
@@ -17,9 +17,9 @@ const TourDetailsOne = () => {
             <Col xl={12}>
               <div className="tour-details__top-inner">
                 <div className="tour-details__top-left">
-                  <h2 className="tour-details__top-title">{title}</h2>
+                  <h2 className="tour-details__top-title">{data?.name}</h2>
                   <p className="tour-details__top-rate">
-                    <span>${rate}</span> / Per Person
+                    <span>${data?.starting_from}</span> / Per Person
                   </p>
                 </div>
                 <div className="tour-details__top-right">
@@ -29,7 +29,7 @@ const TourDetailsOne = () => {
                         <span className="icon-clock"></span>
                       </div>
                       <div className="text">
-                        <h6>{duration}</h6>
+                        <h6>{data?.tribe?.no_of_days + " " + "Days"}</h6>
                       </div>
                     </li>
                     <li>
@@ -39,7 +39,7 @@ const TourDetailsOne = () => {
                       </div>
                         {/* style={{ color:"#FFC107" }} */}
                       <div className="text" >
-                        <p>Region is Southern Asia</p>
+                        <p>Region is {data?.tribe?.region.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}</p>
                         {/* <h6>{minAge}</h6> */}
                       </div>
                     </li>
@@ -49,7 +49,7 @@ const TourDetailsOne = () => {
                         <Image src={moderate}  width= "35px" height= "35px" ></Image>
                       </div>
                       <div className="text">
-                        <p>Challenge is Moderate</p>
+                        <p>Challenge is {data?.tribe?.challenge?.charAt(0)?.toUpperCase() + data?.tribe?.challenge?.slice(1)}</p>
                         {/* <h6>{tourType}</h6> */}
                       </div>
                     </li>
@@ -58,7 +58,7 @@ const TourDetailsOne = () => {
                       <Image src={tropical}  width= "35px" height= "35px" ></Image>
                       </div>
                       <div className="text">
-                        <p>Climate here is Tropical</p>
+                        <p>Climate here is {data?.tribe?.climate?.charAt(0)?.toUpperCase() + data?.tribe?.climate?.slice(1)}</p>
                         {/* <h6>{location}</h6> */}
                       </div>
                     </li>

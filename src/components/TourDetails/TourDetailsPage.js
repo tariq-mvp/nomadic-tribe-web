@@ -2,11 +2,12 @@ import React from "react";
 import TourDetailsOne from "./TourDetailsOne";
 import TourDetailsTwo from "./TourDetailsTwo";
 
-const TourDetailsPage = () => {
+const TourDetailsPage = ({data}) => {
+  console.log("data", data);
   return (
     <>
-      <TourDetailsOne />
-      <TourDetailsTwo />
+      <TourDetailsOne data={data}/>
+      <TourDetailsTwo data={data}/>
     </>
   );
 };
