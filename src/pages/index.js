@@ -25,7 +25,6 @@ const Home = () => {
     try {
       const result = await fetchHomeData();
       setData(result?.data);
-      console.log("result", result?.data)
     } catch(err) {
       console.log("error", err);
     }
@@ -39,7 +38,7 @@ const Home = () => {
       <AboutOne />
       <PopularTours data={data}/>
       <ChallengeLevel data={data}/>
-      <Climb />
+      <Climb data={data}/>
       <VideoOne />
       <BrandOne />
       <TestimonialOne data={data}/>
