@@ -62,7 +62,7 @@ const Climb = ({data}) => {
                   <SingleClimb key={tour.id} tour={tour} />
                 ))} */}
                 {tripsByCategories?.map((item) => (
-                  <SingleClimb tour={item} />
+                  <SingleClimb key={item?.id} tour={item} />
                 ))}
               </TinySlider>
             </div>
