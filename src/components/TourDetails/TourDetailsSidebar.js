@@ -158,7 +158,7 @@ const TourDetailsSidebar = () => {
               height: "200px",
               background: "white",
               borderRadius: "8px",
-              boxShadow: " rgba(0, 0, 0, 0.24) 0px 3px 8px;",
+              boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
             }}
           >
             <div
@@ -178,7 +178,6 @@ const TourDetailsSidebar = () => {
                 </svg>
                 <div>
                  <p style={{ margin: "0" }}>Adults</p>
-                 <span style={{ margin: "0" }}>18</span>
                 </div>
               </div>
               <div>1958</div>
