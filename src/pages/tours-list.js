@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
-import ToursListPage from "@/components/ToursListPage/ToursListPage";
+import ToursListPage from "@/components/ProgramsListPage/ProgramsListPage";
 import React from "react";
 
 const ToursList = () => {

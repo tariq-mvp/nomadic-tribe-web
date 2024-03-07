@@ -1,10 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ToursListLeft from "./ToursListLeft";
-import ToursListRight from "./ToursListRight";
+import ToursListLeft from "./ProgramsListLeft";
+import ToursListRight from "./ProgramsListRight";
 
-const ToursListPage = ({data}) => {
-  console.log("data", data);
+const ProgramListPage = ({data}) => {
   return (
     <section className="tours-list">
       <Container>
@@ -21,4 +20,4 @@ const ToursListPage = ({data}) => {
   );
 };
 
-export default ToursListPage;
+export default ProgramListPage;

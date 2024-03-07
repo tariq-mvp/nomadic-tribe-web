@@ -13,10 +13,11 @@ import TourSearch from "@/components/TourSearch/TourSearch";
 import VideoOne from "@/components/VideoOne/VideoOne";
 import WhyChoose from "@/components/WhyChoose/WhyChoose";
 import React, { useEffect, useState } from "react";
-import { fetchHomeData } from "src/api";
+import { fetchExplorePageData, fetchHomeData } from "src/api";
 
 const Home = () => {
-  const [data, setData] = useState([])
+  const [data, setData] = useState([]);
+  const [climbData, setClimbData] = useState([]);
   useEffect(() => {
     fetchData()
   }, [])
@@ -24,7 +25,9 @@ const Home = () => {
   const fetchData = async () => {
     try {
       const result = await fetchHomeData();
+      const climbResult = await fetchExplorePageData();
       setData(result?.data);
+      setClimbData(climbResult?.data);
     } catch(err) {
       console.log("error", err);
     }
@@ -36,9 +39,9 @@ const Home = () => {
       {/* <TourSearch /> */}
       <DestinationsOne data={data}/>
       <AboutOne />
-      <PopularTours data={data}/>
       <ChallengeLevel data={data}/>
-      <Climb data={data}/>
+      <PopularTours data={data}/>
+      <Climb data={climbData}/>
       <VideoOne />
       <BrandOne />
       <TestimonialOne data={data}/>

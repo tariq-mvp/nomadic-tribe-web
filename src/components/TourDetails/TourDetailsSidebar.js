@@ -1,8 +1,7 @@
-import { tourDetailsSidebar } from "@/data/tourDetailsPage";
 import React, { useState } from "react";
-import { Image } from "react-bootstrap";
 import DatePicker from "react-datepicker";
 import Select from "react-select";
+import "react-datepicker/dist/react-datepicker.css";
 
 const typeOptions = ["Adventure", "Wildlife", "Sightseeing"].map((it) => ({
   value: it,
@@ -64,6 +63,7 @@ const TourDetailsSidebar = () => {
   const [type, setType] = useState("Adventure");
   const [ticket, setTicket] = useState("Adventure");
   const [startDate, setStartDate] = useState(new Date());
+  const [endDate, setEndDate] = useState(null);
 
   const handleSelectType = ({ value }) => {
     setType(value);
@@ -86,6 +86,16 @@ const TourDetailsSidebar = () => {
     console.log(data);
   };
 
+  // const onChange = (dates) => {
+  //   if (dates && dates.length === 2) {
+  //     const [start, end] = dates;
+  //     console.log("start", start)
+  //     console.log("end", end)
+  //     setStartDate(start);
+  //     setEndDate(new Date(end.getTime() + 7 * 24 * 60 * 60 * 1000));
+  //   }
+  // };
+
   return (
     <div className="tour-details-two__sidebar">
       <div className="tour-details-two__book-tours">
@@ -94,7 +104,7 @@ const TourDetailsSidebar = () => {
           onSubmit={handleSubmit}
           className="tour-details-two__sidebar-form"
         >
-          <div className="tour-details-two__sidebar-form-input">
+          {/* <div className="tour-details-two__sidebar-form-input">
             <input type="text" placeholder="Where to" name="place" />
           </div>
           <div className="tour-details-two__sidebar-form-input">
@@ -117,11 +127,15 @@ const TourDetailsSidebar = () => {
             <div className="tour-details-two__sidebar-form-icon">
               <i className="fa fa-angle-down"></i>
             </div>
-          </div>
+          </div> */}
           <div className="tour-details-two__sidebar-form-input">
             <DatePicker
               selected={startDate}
-              onChange={(date) => setStartDate(date)}
+              // onChange={onChange}
+              startDate={startDate}
+              endDate={endDate}
+              selectsRange
+              inline
               placeholderText="Select date"
               id="datepicker"
             />
@@ -129,7 +143,68 @@ const TourDetailsSidebar = () => {
               <i className="fa fa-angle-down"></i>
             </div>
           </div>
-          <div className="tour-details-two__sidebar-form-input">
+          {/* <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              style={{ width: "30px", height: "30px" }}
+            >
+              <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+            </svg> */}
+          <div
+            style={{
+              padding: "10px",
+              marginBottom: "15px",
+              width: "100%",
+              height: "200px",
+              background: "white",
+              borderRadius: "8px",
+              boxShadow: " rgba(0, 0, 0, 0.24) 0px 3px 8px;",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  style={{ width: "30px", height: "30px" }}
+                >
+                  <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                </svg>
+                <div>
+                 <p style={{ margin: "0" }}>Adults</p>
+                 <span style={{ margin: "0" }}>18</span>
+                </div>
+              </div>
+              <div>1958</div>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
+            >
+              <div>Pricing Per Person:</div>
+              <div>1958</div>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
+            >
+              <div>Pricing Per Person:</div>
+              <div>1958</div>
+            </div>
+          </div>
+          {/* <div className="tour-details-two__sidebar-form-input">
             <Select
               name="ticket"
               options={typeOptions}
@@ -146,7 +221,7 @@ const TourDetailsSidebar = () => {
             <div className="tour-details-two__sidebar-form-icon">
               <i className="fa fa-angle-down"></i>
             </div>
-          </div>
+          </div> */}
           <button
             style={{ zIndex: 0 }}
             type="submit"
@@ -156,26 +231,6 @@ const TourDetailsSidebar = () => {
           </button>
         </form>
       </div>
-      {/* <div className="tour-details-two__last-minute">
-        <h3 className="tour-details-two__sidebar-title">Last Minute</h3>
-        <ul className="tour-details-two__last-minute-list list-unstyled">
-          {tourDetailsSidebar.map(({ id, title, image, price, location }) => (
-            <li key={id}>
-              <div className="tour-details-two__last-minute-image">
-                <Image
-                  src={require(`@/images/resources/${image}`).default.src}
-                  alt=""
-                />
-              </div>
-              <div className="tour-details-two__last-minute-content">
-                <h6>${price}</h6>
-                <h5>{title}</h5>
-                <p>{location}</p>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div> */}
     </div>
   );
 };

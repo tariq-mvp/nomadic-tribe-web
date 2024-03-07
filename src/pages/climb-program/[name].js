@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 import { Spinner } from "react-bootstrap";
 import { fetchExplorePageData } from "src/api";
 
-const Program = () => {
+const ChallengeProgram = () => {
   const router = useRouter();
   const { name } = router.query;
   const [data, setData] = useState();
@@ -20,12 +20,13 @@ const Program = () => {
 
   const fetchData = async () => {
     const result = await fetchExplorePageData();
-    setData(result?.data?.regionData?.filter((x) => x.title === name));
+    console.log("result", result.data?.climateData)
+    setData(result?.data?.climateData?.filter((x) => x.title === name));
     setLoading(false);
   };
 
   return (
-    <Layout pageTitle="Programs List">
+    <Layout pageTitle="Climb Programs List">
       {loading ? (
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: "300px" }}>
           <Spinner />
@@ -34,7 +35,7 @@ const Program = () => {
         <>
           {data?.length > 0 ? (
             <>
-          <PageHeader title="Programs List" page="Programs" />
+          <PageHeader title="Climb Programs List" page="Programs" />
           <ToursListPage data={data} />
             </>
           ): (
@@ -48,4 +49,4 @@ const Program = () => {
   );
 };
 
-export default Program;
+export default ChallengeProgram;
